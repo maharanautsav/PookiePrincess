@@ -1,4 +1,4 @@
-import re
+dimport re
 from os import getenv, environ
 import logging
 
@@ -19,7 +19,7 @@ def is_enabled(value, default):
 
 # Bot information *
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
+API_ID = int(environ['APIddrr_ID'])
 API_HASH = environ['API_HASH']
 BOT_TOKEN = environ['BOT_TOKEN']
 
