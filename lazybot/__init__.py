@@ -8,6 +8,10 @@
     # for any error please contact me -> telegram@LazyDeveloperr or insta @LazyDeveloperr 
 import logging
 import logging.config
+import asyncio
+async def my_coroutine():
+    asyncio.run(my_coroutine())
+
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
